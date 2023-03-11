@@ -2657,7 +2657,7 @@ a {
 /* ------------------- Homepage-2 Page End -------------------- */
 
 /* -------------------========================================================================================------------------- */
-/* ------------------- Courses Page Start ------------------- */
+/* ------------------- Charity Page Start ------------------- */
 
 .courses-bottom-navbar {
     margin: 0px;
@@ -2665,7 +2665,7 @@ a {
     padding-right: 8px;
 }
 
-.courses-hero-section {
+.charity-hero-section {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../image/courses/courses-hero-background-image.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2673,7 +2673,7 @@ a {
     height: auto;
     width: auto;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .courses-hero-section-bottom-heading {
@@ -2701,8 +2701,8 @@ a {
 
 .admission-apply-btn {
     border-radius: 30px;
-    background: rgb(4, 214, 74);
-    border-color: rgb(4, 214, 74);
+    background: rgba(19, 165, 19, 0.932);
+    border-color: rgba(19, 165, 19, 0.932);
     padding: 10px;
     padding-left: 22px;
     padding-right: 20px;
@@ -2711,11 +2711,19 @@ a {
 
 .admission-apply-btn:hover {
     background: white;
-    color: rgb(4, 214, 74);
-    border-color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
+    border-color: rgba(19, 165, 19, 0.932);
 }
 
-/* ===================================Courses section ends======================================= */
+.charity-hero-home-text{
+    color: white;
+}
+
+.charity-hero-contact-text{
+    color: rgba(19, 165, 19, 0.932);
+}
+
+/* ===================================Charity section ends======================================= */
 
 
 /* ======================================Courses Faq section starts============================== */
@@ -3068,8 +3076,8 @@ a {
 /* ------ About Hero Section Text Start ------ */
 
 .about-hero-text {
-    padding-top: 120px;
-    padding-bottom: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .about-hero-text h1 {
@@ -3259,8 +3267,8 @@ a {
 /* ------ Event Hero Section Text Start ------ */
 
 .event-hero-text {
-    padding-top: 120px;
-    padding-bottom: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .event-hero-text h1 {
