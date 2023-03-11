@@ -148,10 +148,10 @@ p {
 /* body section start */
 
 
-
+/* 
 .intro-text {
-    padding-top: 85px;
-}
+    padding-top: 35px;
+} */
 
 .vertical-line {
     position: relative;
@@ -469,8 +469,8 @@ p {
 }
 
 .designing :hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(0.9);
+    transition: all 0.4s ease-in-out;
+    transform: scale(0.97);
 }
 
 
