@@ -5045,6 +5045,14 @@ BLOG CONTAINER
         text-align: center;
     }
 
+    @media only screen and (max-width:500px) {
+
+        .about-lottie{
+            padding-top: 70px;
+        }
+        
+    }
+
     /* ------ About Page End ------ */
 
     .lock-btn,
