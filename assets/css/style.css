@@ -525,11 +525,11 @@ p {
 }
 
 .home-font-clock {
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 .home-font-loction {
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 
@@ -4273,7 +4273,11 @@ BLOG CONTAINER
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/homepage1/tdp-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+
+
 
 .navbar-nav .nav-item .nav-link {
     margin: 10px;
@@ -4291,7 +4295,7 @@ BLOG CONTAINER
 
 #LogoHere {
     font-size: 35px;
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 .main-blogs-navbar-apply-now-button {
@@ -4346,10 +4350,10 @@ BLOG CONTAINER
 
 /* ------ Contact Hero Section Text Start ------ */
 
-.contact-hero-text {
-    padding-top: 120px;
-    padding-bottom: 200px;
-}
+/* .contact-hero-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
+} */
 
 .contact-hero-text h1 {
     font-size: 60px;
@@ -4361,7 +4365,7 @@ BLOG CONTAINER
 }
 
 .contact-hero-text .contact-hero-contact-text {
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 /* ------ Contact Hero Section Text End ------ */
@@ -4437,7 +4441,7 @@ BLOG CONTAINER
     padding: 5px;
     padding-left: 0px;
     padding-right: 8px;
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 .contact-find-us-text-1 .twitter i {
@@ -4447,7 +4451,7 @@ BLOG CONTAINER
     padding: 5px;
     padding-left: 0px;
     padding-right: 8px;
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 .contact-find-us-text-1 .youtube i {
@@ -4457,13 +4461,13 @@ BLOG CONTAINER
     padding: 6px;
     padding-left: 0px;
     padding-right: 8px;
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
 }
 
 .contact-find-us-text-1 .google-plus i {
     font-size: 26px;
     /* border: 1px solid black; */
-    color: rgb(4, 214, 74);
+    color: rgba(19, 165, 19, 0.932);
     margin: 5px;
     padding: 7px;
     padding-left: 0px;
@@ -4490,22 +4494,24 @@ BLOG CONTAINER
 }
 
 .contact-form button {
-    border: rgb(4, 214, 74) solid 1px;
+    border: rgba(19, 165, 19, 0.932) solid 1px;
     width: auto;
     height: auto;
     padding: 7px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
-    background-color: rgb(4, 214, 74);
+    background-color: rgba(19, 165, 19, 0.932);
     color: white;
     float: right;
+    
 }
 
 .contact-form button:hover {
-    border: rgb(4, 214, 74) solid 1px;
-    color: rgb(4, 214, 74);
+    border: rgba(19, 165, 19, 0.932) solid 1px;
+    color: rgba(19, 165, 19, 0.932);
     background-color: #fff;
+    transition: all ease 0.5s;
 }
 
 /* ------  Contact Contact Form End ------ */
