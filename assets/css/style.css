@@ -3166,28 +3166,12 @@ a {
 
 /* ------ About Why Choose Our Institute Start ------ */
 
-/* ------ About Counter Increment Start ------ */
 
-.about-counter {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/about/about-counter-background-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+.murshid-photo{
+    width: 70%;
+    height: 90%;
+    
 }
-
-.about-counter-number {
-    font-size: 25px;
-}
-
-.about-counter-number .counter {
-    font-size: 50px;
-}
-
-.about-counter-number .about-percentage {
-    font-size: 40px;
-}
-
-/* ------ About Counter Increment End ------ */
 
 /* ------ About Our Facilty Start ------ */
 
