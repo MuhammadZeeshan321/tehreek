@@ -5,6 +5,34 @@
 
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.671);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(19, 165, 19, 0.932);
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: ;
+} */
+
+
+
+
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -3167,10 +3195,10 @@ a {
 /* ------ About Why Choose Our Institute Start ------ */
 
 
-.murshid-photo{
+.murshid-photo {
     width: 70%;
     height: 90%;
-    
+
 }
 
 /* ------ About Our Facilty Start ------ */
