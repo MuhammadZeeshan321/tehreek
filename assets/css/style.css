@@ -48,7 +48,7 @@ p {
 /* ------------------- Homepage-1 Page Start -------------------- */
 
 .homepage-1-hero-section {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../image/homepage1/tdp-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .8)), url(../image/contact/home-bg2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -148,8 +148,8 @@ p {
 
 .homepage-1-hero-section-bottom-heading {
     color: #fff;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 45px;
+    /* font-weight: 700; */
 }
 
 .contact-btn {
@@ -249,9 +249,9 @@ p {
 }
 
 .homepage-card {
-    box-shadow: 0px 1px 3px #cccccc65;
+    /* box-shadow: 0px 1px 3px #cccccc65; */
     border-radius: 15px;
-    border: rgba(153, 153, 153, 0.199) solid 1px;
+    border: none;
 }
 
 .homepage-card:hover {
@@ -496,10 +496,11 @@ p {
     text-transform: capitalize;
 }
 
+/* 
 .designing :hover {
     transition: all 0.4s ease-in-out;
     transform: scale(0.97);
-}
+} */
 
 
 
@@ -2696,7 +2697,7 @@ a {
 }
 
 .charity-hero-section {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../image/courses/courses-hero-background-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../image/charity/charity-bgg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -3063,7 +3064,7 @@ a {
 /* ------ About Hero Section Start ------ */
 
 .about-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/homepage1/tdp-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../image/contact/home-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3250,7 +3251,7 @@ a {
 /* ------ Event Hero Start ------ */
 
 .event-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/event/event-hero-background-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../image/contact/home-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -4286,7 +4287,7 @@ BLOG CONTAINER
 /* ------ Contact Hero Section Start ------ */
 
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/homepage1/tdp-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../image/contact/home-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
