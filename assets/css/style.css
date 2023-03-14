@@ -5,6 +5,34 @@
 
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.671);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(19, 165, 19, 0.932);
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: ;
+} */
+
+
+
+
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -1813,7 +1841,8 @@ ul {
 }
 
 .footer-section {
-    background: #0f1341;
+    /* background: #0f1341; */
+    background-color: rgba(19, 165, 19, 0.932);
     position: relative;
 }
 
@@ -1902,7 +1931,7 @@ ul {
 
 .user-links ul li {
     margin-left: 93px;
-    color: rgb(4, 214, 74);
+    color: white;
 }
 
 .user-links ul li a {
@@ -1911,7 +1940,7 @@ ul {
 }
 
 .user-links ul li a:hover {
-    color: rgb(4, 214, 74);
+    font-weight: bold;
 }
 
 .popular-tag ul {
@@ -1920,7 +1949,7 @@ ul {
 
 .popular-tag ul li {
     margin-left: 93px;
-    color: rgb(4, 214, 74);
+    color: white;
 }
 
 .popular-tag ul li a {
@@ -1929,7 +1958,7 @@ ul {
 }
 
 .popular-tag ul li a:hover {
-    color: rgb(4, 214, 74);
+    font-weight: bold;
 }
 
 /* .footer-widget ul li {
@@ -1961,6 +1990,7 @@ ul {
     border: none;
     border-radius: 10px;
     color: black;
+    outline: none;
 }
 
 .subscribe-form button {
@@ -1980,9 +2010,9 @@ ul {
 }
 
 .copyright-area {
-    background: #0f1341;
+    background: rgba(14, 126, 14, 0.932);
     padding: 25px 0;
-    border-top: 1px solid #434ec7;
+    border-top: 1px solid #ffffff;
 }
 
 .copyright-text p {
@@ -1996,8 +2026,8 @@ ul {
 }
 
 .footer-icons i {
-    background-color: white;
-    color: #0f1341;
+    background-color: rgba(19, 165, 19, 0.932);
+    color: white;
     width: 35px;
     height: 35px;
     border-radius: 50px;
@@ -2009,8 +2039,8 @@ ul {
 }
 
 .footer-icons i:hover {
-    background-color: #0f1341;
-    color: #fff;
+    background-color: white;
+    color: rgba(19, 165, 19, 0.932);
     border: #fff solid 1px;
     border-radius: 50%;
 }
@@ -4363,110 +4393,16 @@ BLOG CONTAINER
     padding-right: 22px;
 }
 
-/* ------  Contact Address Email Phone Find Us Start ------ */
-
-.contact-address {
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    border-radius: 5px 5px 0px 0px;
-
-}
-
-.contact-address-text {
-    font-size: 23px;
-    font-weight: 100;
-}
-
-.contact-address-text-1 {
-    font-size: 18px;
-}
-
-.contact-email {
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    border-top: none;
-}
-
-.contact-email-text {
-    font-size: 23px;
-    font-weight: 100;
-}
-
-.contact-email-text-1 {
-    font-size: 18px;
-}
-
-.contact-phone {
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    border-top: none;
-}
-
-.contact-phone-text {
-    font-size: 23px;
-    font-weight: 100;
-}
-
-.contact-phone-text-1 {
-    font-size: 18px;
-}
-
-.contact-find-us {
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    border-top: none;
-    border-radius: 0px 0px 5px 5px;
-
-}
-
-.contact-find-us-text {
-    font-size: 23px;
-    font-weight: 100;
-}
-
-.contact-find-us-text-1 .instagram i {
-    font-size: 30px;
-    /* border: 1px solid black; */
-    margin: 5px;
-    padding: 5px;
-    padding-left: 0px;
-    padding-right: 8px;
-    color: rgba(19, 165, 19, 0.932);
-}
-
-.contact-find-us-text-1 .twitter i {
-    font-size: 30px;
-    /* border: 1px solid black; */
-    margin: 5px;
-    padding: 5px;
-    padding-left: 0px;
-    padding-right: 8px;
-    color: rgba(19, 165, 19, 0.932);
-}
-
-.contact-find-us-text-1 .youtube i {
-    font-size: 28px;
-    /* border: 1px solid black; */
-    margin: 5px;
-    padding: 6px;
-    padding-left: 0px;
-    padding-right: 8px;
-    color: rgba(19, 165, 19, 0.932);
-}
-
-.contact-find-us-text-1 .google-plus i {
-    font-size: 26px;
-    /* border: 1px solid black; */
-    color: rgba(19, 165, 19, 0.932);
-    margin: 5px;
-    padding: 7px;
-    padding-left: 0px;
-    padding-right: 8px;
-}
-
-
-/* ------  Contact Address Email Phone Find Us End ------ */
 
 /* ------  Contact Contact Form Start ------ */
 .contact-input-fields {
     border-radius: 5px;
-    border: rgba(0, 0, 0, 0.219) solid 1px;
+    border: grey solid 1px;
+    outline: none;
+}
+
+.contact-input-fields:focus {
+    border: rgba(19, 165, 19, 0.932) solid 1px;
 }
 
 .contact-form input {
