@@ -2715,11 +2715,11 @@ a {
     border-color: rgba(19, 165, 19, 0.932);
 }
 
-.charity-hero-home-text{
+.charity-hero-home-text {
     color: white;
 }
 
-.charity-hero-contact-text{
+.charity-hero-contact-text {
     color: rgba(19, 165, 19, 0.932);
 }
 
@@ -3165,10 +3165,12 @@ a {
 /* ------ About Why Choose Our Institute Start ------ */
 
 
-.murshid-photo{
-    width: 70%;
-    height: 90%;
-    
+.murshid-photo {
+    width: 100%;
+}
+
+.founder-photo {
+    width: 100%;
 }
 
 /* ------ About Our Facilty Start ------ */
@@ -4488,7 +4490,7 @@ BLOG CONTAINER
     background-color: rgba(19, 165, 19, 0.932);
     color: white;
     float: right;
-    
+
 }
 
 .contact-form button:hover {
@@ -5031,10 +5033,10 @@ BLOG CONTAINER
 
     @media only screen and (max-width:500px) {
 
-        .about-lottie{
+        .about-lottie {
             padding-top: 70px;
         }
-        
+
     }
 
     /* ------ About Page End ------ */
