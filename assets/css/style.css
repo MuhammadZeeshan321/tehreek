@@ -2589,7 +2589,7 @@ a {
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
-/* 
+        /* 
         -webkit-column-gap: 20px;
         -moz-column-gap: 20px;
         column-gap: 20px; */
@@ -2601,7 +2601,7 @@ a {
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 4;
-/* 
+        /* 
         -webkit-column-gap: 20px;
         -moz-column-gap: 20px;
         column-gap: 20px; */
@@ -2613,7 +2613,7 @@ a {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
-/* 
+        /* 
         -webkit-column-gap: 20px;
         -moz-column-gap: 20px;
         column-gap: 20px; */
@@ -2650,6 +2650,7 @@ a {
 .home-gallery img {
     width: 100%;
 }
+
 /* 
 .overlay {
     position: absolute;
@@ -3214,10 +3215,32 @@ a {
 
 /* ------ About Our Facilty Start ------ */
 
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+}
+
 .about-our-facilty {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/about/about-our-faculity-background-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.item .card {
+    border: none;
+}
+
+.item .card-body {
+    background: rgba(0, 0, 0, .9);
+    border: none;
+
+}
+
+.about-our-facility-heading {
+    z-index: 1000;
 }
 
 .about-our-facility-heading h1 {
@@ -3227,12 +3250,13 @@ a {
 .about-our-facility-card-1 {
     position: relative;
     border-radius: 15px;
+
 }
 
 .about-our-facility-card-1-overlay {
     position: absolute;
     color: gray;
-    background: white;
+    background: black;
     width: 100%;
     height: 0;
     border-radius: 0px 0px 5px 5px;
