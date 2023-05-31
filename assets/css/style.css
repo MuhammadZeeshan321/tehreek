@@ -4435,6 +4435,10 @@ BLOG CONTAINER
     outline: none;
 }
 
+.contact-input-fields::placeholder {
+    font-size: 15px;
+}
+
 .contact-input-fields:focus {
     border: rgba(19, 165, 19, 0.932) solid 1px;
 }
